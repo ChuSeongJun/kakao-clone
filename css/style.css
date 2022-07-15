@@ -4,11 +4,14 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friend.css";
 
 body {
     font-family: Georgia, "Times New Roman", Times, serif;\
     height: 1000vh;
+    color: #2e363e;
 }
