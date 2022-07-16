@@ -12,11 +12,12 @@ body {
     background-color: white;
     border-radius: 25px;
     padding: 20px 20px;
+    position: relative;
 }
 
 .right-site {
     width: 360px;
-    height: 760px;
+    height: 720px;
     background-color: white;
     border-radius: 25px;
     padding: 20px 20px;
@@ -93,7 +94,7 @@ body {
 
 .song-list {
     display: flex;
-    width: 295px;
+    width: 320px;
     height: 55px;
     justify-content: space-between;
     align-items: center;
@@ -136,6 +137,7 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: 1px 2px 5px black;
+    position: absolute;
 }
 
 .nav-left {
@@ -161,4 +163,80 @@ body {
 
 .nav-right i:nth-child(2) {
     margin: 0 30px;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.play-song {
+    width: 260px;
+    height: 260px;
+    box-shadow: 5px 5px 5px 10px pink;
+    border-radius: 20px;
+}
+
+.music-bar__time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: bold;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.music-bar-now {
+    position: relative;
+}
+
+.music-bar-now__left {
+    position: absolute;
+    height: 5px;
+    border-radius: 5px;
+    background-color: black;
+    width: 215px;
+}
+
+.music-bar-now__right {
+    background-color: #f1f1f3;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.music-bar-now__point {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    left: 210px;
+    background-color: black;
+    border-radius: 50px;
+    top: -4px;
+}
+
+.music-bar-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.music-bar-btn div {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.9);
+}
+
+.music-bar-btn i:first-child,
+.music-bar-btn i:last-child {
+    opacity: 0.3;
 }
