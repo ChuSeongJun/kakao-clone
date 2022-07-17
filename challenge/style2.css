@@ -228,8 +228,8 @@ body {
     background-color: black;
     width: 60px;
     height: 60px;
-    display: flex;
     color: white;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
